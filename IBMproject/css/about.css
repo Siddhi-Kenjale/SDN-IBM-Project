@@ -1,0 +1,99 @@
+@import url("./global.css");
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: linear-gradient(180deg, rgb(224, 224, 224), rgb(128, 128, 128)); */
+
+    background-image: url("../img/about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#about{
+width: 100%;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
+#aboutProject{
+    margin: 50px;
+    padding: 40px;
+    max-width: 800px;
+    min-height: fit-content;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(240, 240, 240, 0.747);
+}
+
+#aboutProject *{
+    margin: 20px;
+}
+
+#aboutProject h3{
+    font-size: 28px;
+    color: rgb(10, 178, 207);
+}
+
+#aboutProject p{
+    font-size: 18px;
+    color: rgb(71, 71, 71);
+}
+
+
+
+caption{
+    margin: 20px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(77, 77, 77, 0.452);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+table{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.856);
+    border-radius: 5px;
+filter: drop-shadow(5px 5px 5px rgb(133, 132, 132));
+}
+
+
+td{
+    padding: 10px 30px;
+    border-radius: 2px;
+    margin: 20px;
+    background-color: rgba(196, 196, 196, 0.356);
+    color: rgb(56, 56, 56);
+    font-size: 16px;
+}
+
+@media(max-width:570px){
+    td{
+        font-size: 14px;
+        padding: 5px 15px;
+        margin: 10px;
+    }
+
+    table{
+        margin: 0px;
+    }
+
+    #aboutProject{
+        margin: 10px;
+    }
+}

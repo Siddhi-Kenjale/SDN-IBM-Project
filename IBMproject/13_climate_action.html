@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/goalsBgcolor.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <title>SDN | 13. Climate action</title>
+</head>
+<body>
+    <div class="categoryBody">
+        <header>
+        </header>
+        
+        <!-- ------------------------ Section 01 -------------------------------- -->
+        <div id="catSection01" class="c13">
+            <!-- ----------------- Header ------------------- -->
+            
+            <h2>CLIMATE ACTION</h2>
+
+            <p>This goal calls for urgent action to combat climate change and its impacts. It emphasizes the need to strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries. The goal focuses on integrating climate change measures into national policies, strategies, and planning. It also addresses the need for improved education, awareness, and capacity on climate change mitigation, adaptation, and impact reduction. Efforts include promoting mechanisms for raising capacity for effective climate change-related planning and management, particularly in least developed countries and small island developing states.
+            </p>
+        
+
+            <a href="https://sdgs.un.org/goals/goal13" target="_blank">Learn more</a>
+
+        </div>
+
+        <!-- ------------------------ Section 02 -------------------------------- -->
+        <div  id="catSection02" >
+        
+<p>Post your details, skills, questions and solutions </p>
+<button  class="btn2"  onclick="toggleFindPosition()" >Add a comment</button>
+
+
+<!-- --------------- comment container --------------------- -->
+<div id="findContainer">
+<p id="ncy" ></p>
+
+
+
+</div>
+
+
+<!-- ------------------------------ User info card ------------------------------ -->
+<div id="findPosition">
+
+    <img src="./img/icons/cross.png" alt="" onclick="toggleFindPosition()">
+    
+    <form id="findP" >
+
+        <h3>Let people know about you</h3>
+        
+    <div>
+        
+        <div> 
+                <label for="">Name </label>
+                <input type="text" name="name"  id="userName" required placeholder="First-name    Middle-name     Last-name" >
+            </div>
+        
+            <div>
+                <label for="">Title</label>
+                <input type="text" name="title" id="userTitle" required placeholder="Searching jobs / Question / Solution" >
+            </div>
+
+<div>
+    <label for="">Description</label>
+<textarea name="desc" id="userDesc" cols="60" rows="6" ></textarea   >
+</div>
+
+<div>
+    <label for="gmail">Mail ID</label>
+    <input type="email" name="mail" id="mail" placeholder="abc123@gmail.com" >
+</div>
+
+<div>
+    <label for="link">Link</label>
+    <input type="text" name="link"  id="link">
+</div>
+
+<button type="submit" class="btn2" >Add comment </button>
+<h5 id="notify"></h5>
+    </form>
+</div>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- --------------------- Footer ---------------------- -->
+<footer>
+</footer>
+
+    <script src="./js/global.js"></script>
+</body>
+</html>
